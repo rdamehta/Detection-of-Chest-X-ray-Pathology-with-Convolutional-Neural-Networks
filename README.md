@@ -1,15 +1,22 @@
-# Chest X-ray Classifier using Convolutional Neural Networks: a Comparison of various the NIH Chest X-ray Dataset made public fall/winer of 2017
+# Chest X-ray Classifier using Convolutional Neural Networks: a Transfer Learning Approach and comparison of Various CNN Topologies.
 
 ## Table of Contents
 [Introduction](https://github.com/rdamehta/capstone#Introduction)
+
 [Prerequisites](https://github.com/rdamehta/capstone#Prerequisites)
-[Model Topology](https://github.com/rdamehta/capstone#Model Topology)
-[Model Comparison and Results](https://github.com/rdamehta/capstone#Model Comparison and Results)
-[Final Thoughts and Future Considerations](https://github.com/rdamehta/capstone#Final Thoughts and Future Considerations)
+
+[Model Topology](https://github.com/rdamehta/capstone#ModelTopology)
+
+[Model Comparison and Results](https://github.com/rdamehta/capstone#ModelComparisonandResults)
+
+[Final Thoughts and Future Considerations](https://github.com/rdamehta/capstone#FinalThoughtsandFutureConsideration)
 
 ### Introduction
-
+Chest x-rays are one of the most ubiquitous medical imaging procedures and can reveal essential clinical information about a patient for physicians and medical proffesionals. The goal of this project was to build a model that could predict whether or not disease was present in an frontal Chest Xray using various convolutional neural networks 
+#### Data
+The ChestXnet Dataset was released in Fall of 2017 and gave the public access to over 100, 000 Chest Xrays image. The full dataset is available on https://www.kaggle.com/nih-chest-xrays/data, and the sample dataset of as well as a sample set of over 5000 Xrays is available at https://www.kaggle.com/nih-chest-xrays/sample/data.
 ### Prerequisite
+
 ### Model Topology
 ### Model Comparison and Results
 ### Final Thoughts and Future Consideration
