@@ -1,4 +1,18 @@
-# Chest X-ray Classifier using Convolutional Neural Networks: a Transfer Learning Approach and comparison of Various CNN Topologies.
+# Chest X-ray Classifier using Convolutional Neural Networks
+
+<br>
+<br>
+<p align="left">
+  <img src="https://github.com/rdamehta/capstone/readmeX.PNG" 
+       width="600" height="200">
+</p>
+<br>
+<p align="right">
+  <img src="https://github.com/rdamehta/capstone/readmeCHECK.PNG" 
+       width="600" height="200">
+</p>
+
+<a id = 'over'></a>
 
 ## Table of Contents
 [Introduction](https://github.com/rdamehta/capstone#introduction)
