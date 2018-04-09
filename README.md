@@ -40,29 +40,31 @@ There is also a csv available with each row corresponding to each image and each
 
 ### Model Topology
 
+**Topology of a simple CNN**
 <p align="center">
   <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/Typical_cnn.png" 
        width="650" height="200">
-  Topology of a typical CNN. The Simple CNN topology consisted of: 
+  In this project the Simple CNN topology consisted of: 
   
-    `Conv2d 
+    Conv2d 
     Pooling
     Conv2d
     Pooling
     Conv2d
     Flatten to Dense
     Dropout
-    Dense(outputs)`
+    Dense(outputs)
   
+  **MobileNet Topology**: mobilenets were designed to be used on android and ios platforms.
   <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/mobilenet.png"
        width="650" height="200">
-   Mobile net topology. The full MobileNets network has 30 layers. <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/mobile_net_table.png" width="400" height="400">
+  <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/mobile_net_table.png" width="400" height="400">
+The full MobileNets network has 30 layers.
 
-
-  
+  **InceptionV3 architecture** 
   <img src = "https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/inceptionv3.png"
        width="650" height="200">
-  InceptionV3 architecture     
+      
     
 </p>
 
