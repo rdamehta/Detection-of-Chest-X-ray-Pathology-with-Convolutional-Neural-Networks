@@ -39,10 +39,35 @@ There is also a csv available with each row corresponding to each image and each
 - `pip install pandas`
 
 ### Model Topology
+
 <p align="center">
-  <img src="https://github.com/rdamehta/Capstone/blob/master/typical_cnn.PNG" 
-       width="200" height="250">
+  <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/Typical_cnn.png" 
+       width="650" height="200">
+  Topology of a typical CNN. The Simple CNN topology consisted of: 
+  
+    `Conv2d 
+    Pooling
+    Conv2d
+    Pooling
+    Conv2d
+    Flatten to Dense
+    Dropout
+    Dense(outputs)`
+  
+  <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/mobilenet.png"
+       width="650" height="200">
+   Mobile net topology. The full MobileNets network has 30 layers. <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/mobile_net_table.png" width="400" height="400">
+
+
+  
+  <img src = "https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/inceptionv3.png"
+       width="650" height="200">
+  InceptionV3 architecture     
+    
 </p>
+
+
+
 ### Model Comparison and Results
 ### Final Thoughts and Future Consideration
 
