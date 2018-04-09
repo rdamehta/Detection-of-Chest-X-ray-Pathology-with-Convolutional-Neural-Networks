@@ -85,8 +85,7 @@ Convolutional Neural Network Topologies compared:
 
 Results:
 <p align="center">
-  <img src="https://github.com/rdamehta/Capstone/blob/Presentation%20Files/comparisonmatrix.png" 
-       width="600" height="700">
+  <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/comparisonmatrix.PNG" >
 </p>
 
 
