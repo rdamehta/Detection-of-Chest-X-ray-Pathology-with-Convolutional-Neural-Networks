@@ -24,12 +24,14 @@
 - [Final Thoughts and Future Considerations](https://github.com/rdamehta/capstone#final-thoughts-and-future-consideration)
 
 ### Introduction
+---
 Chest x-rays are one of the most ubiquitous medical imaging procedures and can reveal essential clinical information about a patient for physicians and medical proffesionals. The goal of this project was to build a model that could predict whether or not disease was present in an frontal Chest Xray using various convolutional neural networks 
 #### Data
 The ChestXnet Dataset was released in Fall of 2017 and gave the public access to over 100, 000 Chest Xrays image. The full dataset is available on [kaggle](https://www.kaggle.com/nih-chest-xrays/data), and the sample dataset of as well as a sample set of over 5000 Xrays is available [here](https://www.kaggle.com/nih-chest-xrays/sample/data).
 
 There is also a csv available with each row corresponding to each image and each column either patient or image data corresponding to each image. The [csv](https://www.kaggle.com/nih-chest-xrays/data/downloads/Data_Entry_2017.csv/3) is also available on kaggle. 
 ### Prerequisite
+---
 - `pip install tensorflow`
 - `pip install keras`
 - `pip install sklearn` 
@@ -39,6 +41,7 @@ There is also a csv available with each row corresponding to each image and each
 - `pip install pandas`
 
 ### Model Topology
+---
 
  1. **Topology of a simple CNN**
 <p align="center">
@@ -72,6 +75,7 @@ There is also a csv available with each row corresponding to each image and each
 
 
 ### Model Comparison and Results
+---
 The images were preprocessed using opencv by grayscaling, resizing, and normalizing images to 128 x 128 x 1, 256 x 256 x 1, and  256 x 256 x 3 channel images.
 
 Convolutional Neural Network Topologies compared:
@@ -80,10 +84,15 @@ Convolutional Neural Network Topologies compared:
 - InceptionV3 as Base Layer
 
 Results:
+<p align="center">
+  <img src="https://github.com/rdamehta/Capstone/blob/Presentation%20Files/comparisonmatrix.png" 
+       width="600" height="700">
+</p>
 
 
 
 ### Final Thoughts and Future Consideration
+---
 
 As of now InceptionV3 does the best job at predicting abnormal xrays with an AUC ROC of .62. Transfer significantly improved the predictive abilites over a simple CNN topology. It's interesting to note the false positives and false negatives of each model. Depending on the clinical scenario one could argue having more false negatives is problematic and more insiduous when trying to warrant further investigation.
 
