@@ -25,9 +25,9 @@
 
 ### Introduction
 ---
-Chest x-rays are one of the most ubiquitous medical imaging procedures and can reveal essential clinical information about a patient for physicians and medical proffesionals. The goal of this project was to build a model that could predict whether or not disease was present in an frontal Chest Xray using various convolutional neural networks 
+Chest x-rays are one of the most ubiquitous medical imaging procedures in existence and can reveal quite a bit of clinical information for physicians and medical proffesionals. The goal of this project was to build a model that could predict whether or not disease was present in an frontal Chest Xray using various convolutional neural networks. 
 #### Data
-The ChestXnet Dataset was released in Fall of 2017 and gave the public access to over 100, 000 Chest Xrays image. The full dataset is available on [kaggle](https://www.kaggle.com/nih-chest-xrays/data), and the sample dataset of as well as a sample set of over 5000 Xrays is available [here](https://www.kaggle.com/nih-chest-xrays/sample/data).
+The ChestXnet Dataset was released in Fall of 2017 and gave the public access to over 100,000 Chest Xrays image. The full dataset is available on [kaggle](https://www.kaggle.com/nih-chest-xrays/data), and the sample dataset of as well as a sample set of over 5000 Xrays is available [here](https://www.kaggle.com/nih-chest-xrays/sample/data).
 
 There is also a csv available with each row corresponding to each image and each column either patient or image data corresponding to each image. The [csv](https://www.kaggle.com/nih-chest-xrays/data/downloads/Data_Entry_2017.csv/3) is also available on kaggle. 
 ### Prerequisite
