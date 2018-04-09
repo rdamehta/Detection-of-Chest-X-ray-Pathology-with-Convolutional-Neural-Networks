@@ -17,11 +17,11 @@
 
 [Prerequisites](https://github.com/rdamehta/capstone#prerequisites)
 
-[Model Topology](https://github.com/rdamehta/capstone#modelTopology)
+[Model Topology](https://github.com/rdamehta/capstone#model-topology)
 
-[Model Comparison and Results](https://github.com/rdamehta/capstone#modelComparisonandResults)
+[Model Comparison and Results](https://github.com/rdamehta/capstone#model-comparison-and-results)
 
-[Final Thoughts and Future Considerations](https://github.com/rdamehta/capstone#finalThoughtsandFutureConsideration)
+[Final Thoughts and Future Considerations](https://github.com/rdamehta/capstone#final-thoughts-and-future-consideration)
 
 ### Introduction
 Chest x-rays are one of the most ubiquitous medical imaging procedures and can reveal essential clinical information about a patient for physicians and medical proffesionals. The goal of this project was to build a model that could predict whether or not disease was present in an frontal Chest Xray using various convolutional neural networks 
