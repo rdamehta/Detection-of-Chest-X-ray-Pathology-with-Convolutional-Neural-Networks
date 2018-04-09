@@ -1,15 +1,15 @@
 # Chest X-ray Classifier using Convolutional Neural Networks: a Transfer Learning Approach and comparison of Various CNN Topologies.
 
 ## Table of Contents
-[Introduction](https://github.com/rdamehta/capstone#Introduction)
+[Introduction](https://github.com/rdamehta/capstone#introduction)
 
-[Prerequisites](https://github.com/rdamehta/capstone#Prerequisites)
+[Prerequisites](https://github.com/rdamehta/capstone#prerequisites)
 
-[Model Topology](https://github.com/rdamehta/capstone#ModelTopology)
+[Model Topology](https://github.com/rdamehta/capstone#modelTopology)
 
-[Model Comparison and Results](https://github.com/rdamehta/capstone#ModelComparisonandResults)
+[Model Comparison and Results](https://github.com/rdamehta/capstone#modelComparisonandResults)
 
-[Final Thoughts and Future Considerations](https://github.com/rdamehta/capstone#FinalThoughtsandFutureConsideration)
+[Final Thoughts and Future Considerations](https://github.com/rdamehta/capstone#finalThoughtsandFutureConsideration)
 
 ### Introduction
 Chest x-rays are one of the most ubiquitous medical imaging procedures and can reveal essential clinical information about a patient for physicians and medical proffesionals. The goal of this project was to build a model that could predict whether or not disease was present in an frontal Chest Xray using various convolutional neural networks 
