@@ -40,7 +40,7 @@ There is also a csv available with each row corresponding to each image and each
 
 ### Model Topology
 
-**Topology of a simple CNN**
+ 1. **Topology of a simple CNN**
 <p align="center">
   <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/Typical_cnn.png" 
        width="650" height="200">
@@ -55,13 +55,13 @@ There is also a csv available with each row corresponding to each image and each
     Dropout
     Dense(outputs)
   
-  **MobileNet Topology**: mobilenets were designed to be used on android and ios platforms.
+   2. **MobileNet Topology**: mobilenets were designed to be used on Android and iOS platforms. The full MobileNets network has 30 layers.
   <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/mobilenet.png"
        width="650" height="200">
   <img src="https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/mobile_net_table.png" width="400" height="400">
-The full MobileNets network has 30 layers.
 
-  **InceptionV3 architecture** 
+
+  3.  **InceptionV3 architecture** 
   
   <img src = "https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/inceptionv3.png"
        width="650" height="200">
@@ -72,26 +72,20 @@ The full MobileNets network has 30 layers.
 
 
 ### Model Comparison and Results
-### Final Thoughts and Future Consideration
-
-## Current Progress:
-Framing the problem as one that is solvable with binary classification. Currently the model classifies Anterior-Posterior and Posterior-Anterior Chest X-rays as 'No Findings' or Abnormal with Findings. 
-
-Currently testing on CNN architecture consisting of 3 convolutional Layers, Dense layer, dropout layer, Dense layer. A very simple topology that my laptop with 16gb and a nvidea 940mx can handle. 
-
-Grayscaling, resizing, and normalizing images to 128 x 128 and 256 x 256 using openCV and comparing with 256x256x3 channel images. This was done to fit everything in RAM.
+The images were preprocessed using opencv by grayscaling, resizing, and normalizing images to 128 x 128 x 1, 256 x 256 x 1, and  256 x 256 x 3 channel images.
 
 Convolutional Neural Network Topologies compared:
 - Simple Naive Model as described above
 - MobileNet as Baselayer
 - InceptionV3 as Base Layer
 
-3 Different images inputs vs 3 different topologies.
+Results:
 
-As of now InceptionV3 does the best job at predicting abnormal xrays with an AUC ROC of .62. Transfer significantly improved the predictive abilites over a simple CNN topology.
 
-## Future Considerations:
-- Try other CNN topologies published in Literature
-- Latest research is showing very deep CNNs perform very well at image recognition and object detection. Dense121 is an very deep CNN
-- Try to detect individual pathologies aka mutlticlass multioutput task
+
+### Final Thoughts and Future Consideration
+
+As of now InceptionV3 does the best job at predicting abnormal xrays with an AUC ROC of .62. Transfer significantly improved the predictive abilites over a simple CNN topology. It's interesting to note the false positives and false negatives of each model. Depending on the clinical scenario one could argue having more false negatives is problematic and more insiduous when trying to warrant further investigation.
+
+Finally it's well documented that there are serious issues with the dataset. [This blog](https://lukeoakdenrayner.wordpress.com/2017/12/18/the-chestxray14-dataset-problems/) discusses how this dataset is not labeled correctly. In fact Stanford’s famous paper [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/) used the same ChestXnet database, but had  panel of radiologists read over them and relabel them to ensure accuracy. Despite this shortcoming there is still utility in using the dataset, least of which in demonstrating the importance of good data.
 
