@@ -1,4 +1,4 @@
-# Chest X-ray Classifier using Convolutional Neural Networks
+# Chest X-ray Classifier using Convolutional Neural Networks  ![](https://img.shields.io/badge/Project-Tested%200.90-brightgreen.svg?style=plastic)
 
 <br>
 <br>
