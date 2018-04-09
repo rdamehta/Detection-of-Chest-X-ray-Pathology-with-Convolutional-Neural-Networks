@@ -67,7 +67,7 @@ There is also a csv available with each row corresponding to each image and each
   3.  **InceptionV3 architecture** 
   
   <img src = "https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/inceptionv3.png"
-       width="650" height="200">
+       width="700" height="400">
       
     
 </p>
@@ -77,11 +77,6 @@ There is also a csv available with each row corresponding to each image and each
 ### Model Comparison and Results
 ---
 The images were preprocessed using opencv by grayscaling, resizing, and normalizing images to 128 x 128 x 1, 256 x 256 x 1, and  256 x 256 x 3 channel images.
-
-Convolutional Neural Network Topologies compared:
-- Simple Naive Model as described above
-- MobileNet as Baselayer
-- InceptionV3 as Base Layer
 
 Results:
 <p align="center">
