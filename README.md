@@ -3,13 +3,13 @@
 <br>
 <br>
 <p align="left">
-  <img src="https://github.com/rdamehta/capstone/readmeX.PNG" 
-       width="600" height="200">
+  <img src="https://github.com/rdamehta/Capstone/blob/master/readmeX.PNG" 
+       width="150" height="250">
 </p>
 <br>
 <p align="right">
-  <img src="https://github.com/rdamehta/capstone/readmeCHECK.PNG" 
-       width="600" height="200">
+  <img src="https://github.com/rdamehta/Capstone/blob/master/readmeCHECK.PNG" 
+       width="150" height="250">
 </p>
 
 <a id = 'over'></a>
