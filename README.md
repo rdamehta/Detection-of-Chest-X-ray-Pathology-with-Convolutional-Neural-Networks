@@ -62,6 +62,7 @@ There is also a csv available with each row corresponding to each image and each
 The full MobileNets network has 30 layers.
 
   **InceptionV3 architecture** 
+  
   <img src = "https://github.com/rdamehta/Capstone/blob/master/Presentation%20Files/inceptionv3.png"
        width="650" height="200">
       
