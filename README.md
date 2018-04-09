@@ -1,6 +1,18 @@
-# Capstone: Chest X-ray Classifier using the NIH Chest X-ray Dataset made public fall/winer of 2017
+# Chest X-ray Classifier using Convolutional Neural Networks: a Comparison of various the NIH Chest X-ray Dataset made public fall/winer of 2017
 
-## sample X-rays
+## Table of Contents
+[Introduction](https://github.com/rdamehta/capstone#Introduction)
+[Prerequisites](https://github.com/rdamehta/capstone#Prerequisites)
+[Model Topology](https://github.com/rdamehta/capstone#Model Topology)
+[Model Comparison and Results](https://github.com/rdamehta/capstone#Model Comparison and Results)
+[Final Thoughts and Future Considerations](https://github.com/rdamehta/capstone#Final Thoughts and Future Considerations)
+
+### Introduction
+
+### Prerequisite
+### Model Topology
+### Model Comparison and Results
+### Final Thoughts and Future Consideration
 
 ## Current Progress:
 Framing the problem as one that is solvable with binary classification. Currently the model classifies Anterior-Posterior and Posterior-Anterior Chest X-rays as 'No Findings' or Abnormal with Findings. 
