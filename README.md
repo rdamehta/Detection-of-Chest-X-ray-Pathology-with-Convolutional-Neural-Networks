@@ -88,7 +88,7 @@ Results:
 ### Final Thoughts and Future Consideration
 ---
 
-As of now InceptionV3 does the best job at predicting abnormal xrays with an AUC ROC of .62. Transfer significantly improved the predictive abilites over a simple CNN topology. It's interesting to note the false positives and false negatives of each model. Depending on the clinical scenario one could argue having more false negatives is problematic and more insiduous when trying to warrant further investigation.
+As of now InceptionV3 does the best job at predicting abnormal xrays with an AUC ROC of .62. Transfer significantly improved the predictive abilites over a simple CNN topology. It's interesting to note the false positives and false negatives of each model. For many clinical scenarios, having a high negative predictive value (less false negatives) can be a useful confirmation for physicians. Futher investigation could work on pushing the ROC to improve this value.
 
 Finally it's well documented that there are serious issues with the dataset. [This blog](https://lukeoakdenrayner.wordpress.com/2017/12/18/the-chestxray14-dataset-problems/) discusses how this dataset is not labeled correctly. In fact Stanford’s famous paper [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/) used the same ChestXnet database, but had  panel of radiologists read over them and relabel them to ensure accuracy. Despite this shortcoming there is still utility in using the dataset, least of which in demonstrating the importance of good data.
 
