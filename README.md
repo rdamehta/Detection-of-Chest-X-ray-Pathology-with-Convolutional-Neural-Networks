@@ -13,6 +13,8 @@
 <a id = 'over'></a>
 
 ## Table of Contents
+- [JupyterNB file](https://github.com/rdamehta/Detection-of-Chest-X-ray-Pathology-with-Convolutional-Neural-Networks/blob/master/Xrays_alt.ipynb)
+
 - [Introduction](https://github.com/rdamehta/capstone#introduction)
 
 - [Prerequisites](https://github.com/rdamehta/capstone#prerequisites)
